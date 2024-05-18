@@ -1,0 +1,47 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(lago\ roxo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    width: 400px;
+    padding: 60px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(219,70,252,1) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 157, 255, 0.1);
+    color: antiquewhite;
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 8px;
+    background-color: #103f14;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #103f14;
+}

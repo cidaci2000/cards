@@ -1,0 +1,132 @@
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background: url(lago\roxo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Header Styles */
+header {
+  background-color: #a881ac;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: #333;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  background-color: #a881ac;
+  justify-content: space-around;
+  height: 10vh;
+  color: aliceblue;
+  align-items: center;
+}
+
+.redes-sociais {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding-right: 20px;
+}
+
+/* Product Card Styles */
+.card {
+  height: 30%; /* Adjust width as needed */
+  width: 150px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 5px; /* Add subtle rounding for visual appeal */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Optional subtle shadow */
+  background-color: #fff; /* Set a default background color */
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+
+.card p {
+  margin-bottom: 1px;
+}
+
+/* Button Styles */
+.botao-comprar {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.botao-comprar:hover {
+  background-color: #0056b3;
+}
+
+/* Carousel Styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  overflow: visible;
+}
+
+/* Responsive Behavior */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: row; /* Stack cards vertically on small screens */
+  }
+
+  .card {
+    /* Adjust card width for better responsiveness (optional) */
+    width: calc(100% - 20px); /* Account for potential margins/padding */
+  }
+}

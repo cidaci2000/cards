@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Header */
+  header {
+    background-color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list {
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .nav-list a:hover {
+    color: #333;
+  }
+  
+  /* Carrossel de Promoções */
+  .carrossel-promocoes {
+    height: 200px;
+    background-color: #ccc;
+  }
+  
+  /* Container de Cards */
+  .container-cards {
+    padding: 20px 0;
+  }
+  
+  .linha-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+  }
+  
+  .card {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
