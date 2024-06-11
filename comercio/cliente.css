@@ -1,0 +1,67 @@
+body{
+  background: url(lago\ roxo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+form {
+    display: flex; /* Arrange elements horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    width: fit-content; /* Adjust form width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding for spacing */
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 5px; /* Rounded corners */
+    width: 400px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(219,70,252,1) 100%);
+  }
+  
+  /* Styles for labels */
+  label {
+    display: block; /* Display labels on new lines */
+    margin-bottom: 5px; /* Add space between labels and inputs */
+    font-weight: bold; /* Make labels slightly bolder */
+  }
+  
+  /* Styles for input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%; /* Set input width to 100% of its container */
+    padding: 10px;
+    border: 1px solid #ccc; /* Input borders */
+    border-radius: 3px; /* Rounded corners for inputs */
+    font-size: 16px; /* Set font size for inputs */
+    background: radial-gradient(circle, rgba(174,218,238,1) 0%, rgba(148,213,233,1) 100%);
+  }
+  
+  /* Style for the select element */
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    background: radial-gradient(circle, rgba(174,218,238,1) 0%, rgba(148,213,233,1) 100%);
+  }
+  
+  /* Style for the submit button */
+  button[type="submit"] {
+    background-color: #103f14; /* Green color for button */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add padding for the button */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Set font size for button */
+  }
+  
+  /* Style for the submit button on hover */
+  button[type="submit"]:hover {
+    background-color: #103f14; /* Darker green on hover */
+  }
